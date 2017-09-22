@@ -15,6 +15,7 @@ public class SeleniumDemoD {
 		System.setProperty("webdriver.chrome.driver", "src/jars/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://www.google.com");
+		driver.close();
 	}
 
 }
